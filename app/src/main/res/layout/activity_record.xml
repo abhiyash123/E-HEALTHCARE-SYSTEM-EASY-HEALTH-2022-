@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profilebg"
+    tools:context=".Home">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="409dp"
+        android:layout_height="566dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="165dp"
+        app:srcCompat="@drawable/silver1"
+        tools:srcCompat="@drawable/silver1" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="338dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="276dp"
+        android:text="Last Checkup Date"
+        android:textColor="#090808"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="192dp"
+        android:layout_height="151dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="52dp"
+        app:srcCompat="@drawable/record" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="338dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="376dp"
+        android:text="Disease Name"
+        android:textColor="#090808"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="506dp"
+        android:layout_marginEnd="0dp"
+        android:text="Medicine Recommendate"
+        android:textColor="#090808"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/lcd"
+        android:layout_width="326dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="326dp"
+        android:text="Last Checkup Date"
+        android:textColor="@color/purple_700"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/dn"
+        android:layout_width="324dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="439dp"
+        android:text="Disease Name"
+        android:textColor="@color/purple_700"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/mr"
+        android:layout_width="371dp"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="579dp"
+        android:text="Medicine Recommendate"
+        android:textColor="@color/purple_700"
+        android:textSize="22sp" />
+
+
+</RelativeLayout>

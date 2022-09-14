@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "151320689482",
+    "project_id": "easyhealth-aed20",
+    "storage_bucket": "easyhealth-aed20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151320689482:android:c0d7813affd9e25ae39fb3",
+        "android_client_info": {
+          "package_name": "com.abhiyash.easyhealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151320689482-qkje2iva4srl844s1e6dqtnvhk91f8ag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkjhacQnd8Lp9H_sURag74dgtX6w1FKvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151320689482-qkje2iva4srl844s1e6dqtnvhk91f8ag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
